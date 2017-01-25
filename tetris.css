@@ -1,0 +1,222 @@
+.divide {
+  border: 1px solid black;
+  margin: 0 auto;
+}
+
+.mid {
+  border: 1px solid black;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#gameBack {
+  background-color: #111;
+  height: 600px;
+  width: 400px;  
+  overflow: hidden;
+  text-align: center;
+  position: relative;
+  display: inline-block;
+}
+
+.gameEdge {
+  border: 1px solid gray;
+  height: 560px;
+  width: 22px;
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: -5px;
+  margin-right: -6px;
+  color: gray;
+  vertical-align: top;
+  
+}
+
+.gameEdgeBox {
+  border: 1px solid gray;
+  height: 18px;
+  width: 18px;
+  text-align: center;
+  font-size: 14px;
+  color: gray;
+  /*margin-left: -1px;*/
+}
+
+#game {
+  border: 1px solid gray;
+  background-color: #111;
+  height: 560px;
+  width: 200px;  
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+#leftBoard {
+  background-color: #111;
+  height: 600px;
+  width: 150px;  
+  margin-top: 10px;
+  margin-right: 10px;
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+#rightBoard {
+  background-color: #111;
+  height: 600px;
+  width: 150px;
+  margin-top: 10px;
+  margin-left: 10px;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.start {
+  color: white;
+  font-size: 2rem;
+  position: relative;
+  text-decoration: none;
+  text-align: center;
+  top: 4rem;
+}
+
+.end {
+  color: white;
+  font-size: 4rem;
+  position: relative;
+  text-decoration: none;
+  top: 4rem;
+  visibility: hidden;
+}
+
+.shape {
+  position: absolute;
+  height: 18px;
+  width: 18px;
+  border: 1px solid white;
+  background: white;
+  left: 0px;
+  top: 0px;
+  text-align: center;
+  font-size: 16px;
+  color: white;
+}
+
+.active {
+  position: absolute;
+  height: 18px;
+  width: 18px;
+  border: 1px solid white;
+  background: blue;
+  left: 0px;
+  top: 0px;
+  text-align: center;
+  font-size: 14px;
+  color: white;
+}
+
+#LinesComplete {
+  margin: 0 auto;
+  margin-top: 10px;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+  border: 1px solid black;
+  text-align: center;
+  width: 400px;
+}
+
+.BlackHeader {
+  margin: 0 auto;
+  margin-top: 10px;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+  border: 1px solid black;
+  text-align: center;
+  width: 400px;
+}
+
+#HighScore {
+  margin: 0 auto;
+  margin-top: 10px;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  background-color: blue;
+  border: 1px solid black;
+  text-align: center;
+  width: 400px;
+}
+
+
+.straight {
+  position: absolute;
+  height: 18px;
+  width: 18px;
+  background: orange;
+  border: 1px solid white;
+}
+
+.t {
+  position: absolute;
+  height: 18px;
+  width: 18px;
+  background: purple;
+  border: 1px solid white;
+}
+
+.square {
+  position: absolute;
+  height: 18px;
+  width: 18px;
+  background: gray;
+  border: 1px solid white;
+}
+
+.l {
+  position: absolute;
+  height: 18px;
+  width: 18px;
+  background: green;
+  border: 1px solid white;
+}
+
+.reverseL {
+  position: absolute;
+  height: 18px;
+  width: 18px;
+  background: pink;
+  border: 1px solid white;
+}
+
+.z {
+  position: absolute;
+  height: 18px;
+  width: 18px;
+  background: red;
+  border: 1px solid white;
+}
+
+.reverseZ {
+  position: absolute;
+  height: 18px;
+  width: 18px;
+  background: blue;
+  border: 1px solid white;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" href="tetris.css">
+
+</head>
+<body>
+
+<div class="divide">
+<div id="LinesComplete" class='BlackHeader'>Lines Complete: 0</div>
+<div id="HighScore">High Score: 0</div>
+<div class='BlackHeader'>
+    <a id="start" href="javascript:startOfGame()">Start</a>
+    <a id="end" href="javascript:endOfGame()">End</a>
+    <a id="clear" href="javascript:clearGame()">Clear</a>
+  </div>
+</div>
+
+<div class="mid">
+<div id="leftBoard"></div>
+<div id="gameBack">
+  <div id="gameEdgeLeft" class='gameEdge'>
+  </div>
+  <div id="game">
+  </div>
+  <div id="gameEdgeRight" class='gameEdge'>
+  </div>
+</div>
+<div id="rightBoard"></div>
+</div>
+
+<div class="divide">
+<div class="BlackHeader">Options</div>
+</div>
+
+<!-- <script src="tetris.js"></script> -->
+<script src="bin.js"></script>
+<script src="globals.js"></script>
+<script src="functions.js"></script>
+<script src="objects.js"></script>
+<script src="animations.js"></script>
+<script src="events.js"></script>
+<script src="display.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+</body>
+</html>
